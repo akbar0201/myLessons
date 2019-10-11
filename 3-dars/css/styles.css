@@ -1,0 +1,44 @@
+body {
+	background-color: #F8F9FA;
+}
+
+.text-uppercase {
+	letter-spacing: 1px;
+}
+
+p.lead {
+	font-weight: 500;
+}
+
+.asosiy-qism {
+	position: relative;
+	background: url(http://wingman.mediumra.re/assets/img/photo-road.jpg) no-repeat center;
+}
+
+.asosiy-qism:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(22,22,22,0.5);
+	z-index: 0;
+}
+
+.asosiy-qism .row {
+	min-height: 100vh;
+}
+
+.asosiy-qism input {
+	font-size: 1.2rem;
+	color: #999;
+}
+
+.form-control.border-0:focus {
+	box-shadow: none;
+}
+
+.logos img {
+	width: 130px;
+}

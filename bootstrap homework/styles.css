@@ -1,0 +1,49 @@
+.container{
+	margin-top: 100px;
+}
+h2{
+	color: #777;
+}
+p{
+	color: #777777;
+	margin-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+a:hover{
+	text-decoration: none;
+}
+.sign{
+	border: 1px solid #0099ea;
+	font-weight: 300;
+	padding: 10px 25px;
+	border-radius: 10px;
+	font-size: 14px;
+}
+.text-center{
+	text-align: center;
+}
+.row{
+	margin-bottom: 150px;
+}
+.eni-boyi img{
+	width: 48.03px;
+	height: 85px;
+}
+img{
+	vertical-align: middle;
+}
+h6{
+	color: #777777;
+}
+h3{
+	color: #777;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}

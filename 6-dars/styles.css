@@ -1,0 +1,135 @@
+.main-area{
+	position: relative;
+	background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/06/84/63581092c4084bd.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+.main-area:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(22,22,22,0.5);
+	z-index: 0;
+}
+.main-area .row{
+	min-height: 100vh;
+}
+.line{
+	width: 7%;
+	height: 2px;
+}
+.btn{
+	border-radius: 300px;
+	padding: 10px 25px;
+	font-weight: 700;
+}
+.bg-light{
+	width: 7%;
+	height: 2px;
+}
+.information{
+	padding: 8rem;
+}
+.service{
+	padding: 8rem;
+}
+.far{
+	font-size: 4em;
+	color: orange;
+	padding-left: 80px;
+	margin-bottom: 1rem;
+}
+.text-muted{
+	/*font-weight: bold;*/
+}
+.fab{
+	font-size: 4em;
+	color: orange;
+	padding-left: 80px;
+	margin-bottom: 1rem;
+}
+.fas{
+	font-size: 4em;
+	color: orange;
+	padding-left: 80px;
+	margin-bottom: 1rem;
+}
+.photo-box{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	opacity: 0;
+	color: #fff;
+	background: orange;
+	transition: all 0.4s ease;
+}
+.photo-box:hover{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+.photo-box .text{
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 0 15px;
+}
+a{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+.img-fluid{
+	width: 449.66px;
+	height: 242.11px;
+	vertical-align: middle;
+	border-style: none;
+}
+.photo-area .col-4{
+	padding: 0;
+}
+.download-area{
+	background-color: black;
+	padding: 8rem 0;
+}
+.fa-phone{
+	padding-left: 15px;
+}
+.rang{
+	color: black;
+}
+.rang:hover{
+	text-decoration: none;
+	color: orange;
+}
+.photo-area{
+	display: block;
+	position: relative;
+}
+.photo-area:hover .parda{
+	opacity: 1;
+}
+.parda{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(240, 95, 64, 0.9);
+	opacity: 0;
+	transform-origin: center;
+	transition: all 0.4s ease;
+}
+.parda-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

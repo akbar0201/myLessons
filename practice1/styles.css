@@ -1,0 +1,113 @@
+a{
+	display: inline-block;
+}
+a:hover{
+	text-decoration: none;
+}
+.service{
+	position: relative;
+	background: url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1503045648000/photosp/5a8bea6f-bff1-4347-9570-83112bbcc3cb/stock-photo-business-coffee-office-planning-home-organized-work-desk-overhead-5a8bea6f-bff1-4347-9570-83112bbcc3cb.jpg)no-repeat fixed;
+	background-size: cover;
+	padding-top: 3rem;
+}
+.service:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(22,22,22,0.5);
+	z-index: 0;
+}
+.service .row{
+	min-height: 25vh;
+}
+.decoration:hover{
+	text-decoration: none;
+}
+.service h2{
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.service p{
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.height{
+	height: 400px;
+}
+.carousel-first{
+	background: url(https://cdn.pixabay.com/photo/2016/11/29/13/24/coffee-1869820__340.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 340px;
+}
+.carousel-first:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(22,22,22,0.5);
+	z-index: 1;
+}
+.carousel-second{
+	background: url(https://softloom.com/wp-content/uploads/2015/09/coffee-and-computer.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 340px;
+}
+.carousel-second:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(22,22,22,0.5);
+	z-index: 1;
+}
+.carousel-third{
+	background: url(https://www.coworking.coffee/assets/illustrations/coffeeshop2-2a3f9692d11a32cba47316f2e92a611b.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 340px;
+}
+.carousel-third:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(22,22,22,0.5);
+	z-index: 1;
+}
+.carousel-caption{
+	padding: 6rem 4rem;
+}
+.bg-light{
+	border: none;
+	font-size: 14px;
+	padding: 12px 16px;
+}
+.contact{
+	padding-bottom: 0.5rem;
+	padding-right: 0.1rem;
+}
+.add-info{
+	margin-top: 0;
+	margin-bottom: 8px;
+	height: 147px;
+}
+.brd{
+	border-bottom: 1px dashed;
+}
+.mrgn{
+	margin-right: 100px;
+}

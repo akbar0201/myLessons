@@ -1,0 +1,35 @@
+a{
+	display: inline-block;
+}
+a:hover{
+	text-decoration: none;
+}
+.area{
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBvh5s7ikTjwjw5KMp09E3LdRy4O2lrtpyGybGXesPVZe59BR_)no-repeat;
+	background-size: cover;
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+}
+.area .row{
+	min-height: 40vh;
+}
+.info{
+	font-size: 4.5rem;
+	line-height: 1.2;
+}
+.information{
+	padding-top: 6rem;
+}
+.icon{
+	color: #26b7a0;
+	font-weight: 900;
+	margin-left: 150px;
+	margin-top: 20px;
+
+}
+.service{
+	padding-top: 5rem;
+}
+.rang{
+	color: #26b7a0;
+}
